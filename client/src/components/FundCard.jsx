@@ -11,11 +11,10 @@ const FundCard = ({
   deadline,
   amountCollected,
   image,
-  handelClick,
+  handleClick,
 }) => {
   const remainingDays = daysLeft(deadline);
 
-  const handleClick = () => {};
 
   return (
     <div
